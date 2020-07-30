@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<title>Frontend Mentor | Social Media Dashboard with Theme Switcher</title>
+	<link href="css/style.css" rel="stylesheet">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+    	.attribution { font-size: 11px; text-align: center; }
+    	.attribution a { color: hsl(228, 45%, 44%); }
+	</style>
+</head>
+<body>
+	<main id="container">
+		<header id="header">
+			<h3>Social Media Dashboard</h3>
+			<font style="color: hsl(228, 34%, 66%)">Total Followers: 23,004</font>
+			<div class="theme-switch-wrapper">
+			Dark Mode
+			<label class="theme-switch" for="checkbox">
+				<input type="checkbox" id="checkbox" />
+				<div class="slider round"></div>
+			</label>
+			</div>
+		</header>
+		<div id="followers">
+			<div class="topfol" id="fbfol">
+				<p class="icon"><img src="images/icon-facebook.svg">@nathanf</p>
+				<p class="number">1987</p>
+				<p class="type">Followers</p>
+				<p class="amountup"><img src="images/icon-up.svg">12 Today</p>
+			</div>
+			<div class="topfol" id="twifol">
+				<p class="icon"><img src="images/icon-twitter.svg">@nathanf</p>
+				<p class="number">1044</p>
+				<p class="type">Followers</p>
+				<p class="amountup"><img src="images/icon-up.svg">99 Today</p>
+			</div>
+			<div class="topfol" id="instafol">
+				<p class="icon"><img src="images/icon-instagram.svg">@nathanf</p>
+				<p class="number">11K</p>
+				<p class="type">Followers</p>
+				<p class="amountup"><img src="images/icon-up.svg">1099 Today</p>
+			</div>
+			<div class="topfol" id="youfol">
+				<p class="icon"><img src="images/icon-youtube.svg">@nathanf</p>
+				<p class="number">8239</p>
+				<p class="type">Subscribers</p>
+				<p class="amountdown"><img src="images/icon-down.svg">144 Today</p>
+			</div>
+		</div>
+		<div id="overviewtitle"><h2>Overview - Today</h2></div>
+		<div id="overview">
+			<div class="botfol">
+				<p class="views">Page Views</p>
+				<p class="iconov"><img src="images/icon-facebook.svg"></p>
+				<p class="numbers">87</p>
+				<p class="amountupov"><img src="images/icon-up.svg">3%</p>
+			</div>
+			<div class="botfol">
+				<p class="views">Likes</p>
+				<p class="iconov"><img src="images/icon-facebook.svg"></p>
+				<p class="numbers">52</p>
+				<p class="amountdownov"><img src="images/icon-down.svg">2%</p>
+			</div>
+			<div class="botfol">
+				<p class="views">Likes</p>
+				<p class="iconov"><img src="images/icon-instagram.svg"></p>
+				<p class="numbers">5462</p>
+				<p class="amountupov"><img src="images/icon-up.svg">2257%</p>
+			</div>
+			<div class="botfol">
+				<p class="views">Profile Views</p>
+				<p class="iconov"><img src="images/icon-instagram.svg"></p>
+				<p class="numbers">52K</p>
+				<p class="amountdownup"><img src="images/icon-up.svg">1375%</p>
+			</div>
+			<div class="botfol">
+				<p class="views">Retweets</p>
+				<p class="iconov"><img src="images/icon-twitter.svg"></p>
+				<p class="numbers">117</p>
+				<p class="amountupov"><img src="images/icon-up.svg">303%</p>
+			</div>
+			<div class="botfol">
+				<p class="views">Likes</p>
+				<p class="iconov"><img src="images/icon-twitter.svg"></p>
+				<p class="numbers">507</p>
+				<p class="amountupov"><img src="images/icon-up.svg">553%</p>
+			</div>
+			<div class="botfol">
+				<p class="views">Likes</p>
+				<p class="iconov"><img src="images/icon-youtube.svg"></p>
+				<p class="numbers">107</p>
+				<p class="amountdownov"><img src="images/icon-down.svg">19%</p>
+			</div>
+			<div class="botfol">
+				<p class="views">Total Views</p>
+				<p class="iconov"><img src="images/icon-youtube.svg"></p>
+				<p class="numbers">1407</p>
+				<p class="amountdownov"><img src="images/icon-down.svg">12%</p>
+			</div>
+		</div>
+  	</main>
+	<div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+		Coded by <a href="www.sanderschippers.com">Sander Schippers</a>.
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
